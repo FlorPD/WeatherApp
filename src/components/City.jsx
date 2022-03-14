@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./styles/City.module.css"
 import Swal from 'sweetalert2'
-import{useHistory, Link} from "react-router-dom"
+import{useHistory} from "react-router-dom"
 
 function City({city}) {
     const history = useHistory()
