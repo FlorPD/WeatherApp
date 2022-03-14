@@ -1,0 +1,63 @@
+
+.card {
+    margin: 50px;
+    border-color: #fb6c68;
+    border-radius: 8px ;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    height: fit-content; 
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: sans-serif;
+    /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.589); */
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgb(251, 108, 104)
+    ;
+}
+.city:hover{
+  text-decoration: none;
+}
+.name{
+  color: #fb6c68;
+  font-weight: bold;
+  text-decoration: none;
+}
+.name:hover{
+  font-weight: bolder;
+  color:#5ea4df
+}
+.card:hover{
+  transform: scale(110%);
+}
+
+img{
+  width: 100px;
+  height: auto;
+}
+.delete_btn{
+  background-color:transparent;
+  color: #fb6c68 ;
+  align-self: flex-end;
+  border: none
+}
+.delete_btn:focus{
+  outline:#d88380
+}
+.delete_btn:hover{
+  color: #5ea4df 
+}
+
+.temp{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+.temp p {
+  color: #fb6c68
+}
+.value{
+  font-weight: bold;
+}
