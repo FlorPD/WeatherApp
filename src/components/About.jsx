@@ -15,7 +15,7 @@ function About() {
             </div>
             <div className={styles.icons}>
             <a href="https://www.linkedin.com/in/florenciaperezduarte/" target="_blank"  rel="noreferrer" className={styles.link}><BsLinkedin size={30}/></a>
-            <a href=" https://github.com/FlorPD" target="_blank"  rel="noreferrer"><BsGithub size={30}/></a>
+            <a href="https://github.com/FlorPD" target="_blank"  rel="noreferrer"><BsGithub size={30}/></a>
             </div>
         </div>
     )
